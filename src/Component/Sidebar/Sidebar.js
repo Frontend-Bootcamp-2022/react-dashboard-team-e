@@ -4,5 +4,5 @@ const Sidebar = () => {
     );
   }
   
-  export default App;
+  export default Sidebar;
   
