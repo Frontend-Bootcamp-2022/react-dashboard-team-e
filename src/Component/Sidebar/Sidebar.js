@@ -1,27 +1,66 @@
+import {
+    AiOutlineHome,
+    AiOutlineAppstore,
+    AiOutlineApartment,
+    AiOutlineSend,
+    AiOutlineTeam,
+    AiOutlineFundProjectionScreen,
+    AiOutlineLogin,
+    AiOutlineMenuFold,
+} from 'react-icons/ai';
+
+
 const Sidebar = () => {
+
+    const menuItems = [
+        {
+            name: "Dashboard",
+            icon: <AiOutlineHome />
+        },
+        {
+            name: "Projects",
+            icon: <AiOutlineAppstore />
+        },
+        {
+            name: "Modules",
+            icon: <AiOutlineApartment />
+        },
+        {
+            name: "Sprint",
+            icon: <AiOutlineSend />
+        },
+        {
+            name: "Members",
+            icon: <AiOutlineTeam />
+        },
+        {
+            name: "Reports",
+            icon: <AiOutlineFundProjectionScreen />
+        },
+
+    ]
+
+
     return (
-        <div>
-            <div className="top_sidebar">
+        <div className='sidebar'>
+            <div className='sidebar_content'>
+                <div className="top_sidebar">
+                    <div className='logo-icon'>
 
-                <div className="logo">
-                    <div className="image"></div>
-                    <div className="icon"></div>
-                </div>
+                    </div>
+                    <h1 className='logo-text'>ChirKuut</h1>
+                    <div className='bars'>
 
-                <div className="menu">
-                    <div className="item"></div>
-                    <div className="item"></div>
-                    <div className="item"></div>
-                    <div className="item"></div>
-                    <div className="item"></div>
-                    <div className="item"></div>
+                    </div>
                 </div>
 
             </div>
 
-            <div className="sub_sidebar">
-                <div className="item"></div>
+            <div className='logout'>
+
             </div>
+
+
 
         </div>
     );
