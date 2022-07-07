@@ -14,7 +14,7 @@ section{
 .top_sidebar {
     display: flex;
     align-items: center;
-    padding: 47px 27px;
+    padding: 40px 27px;
 
 }
 .logo-text {
@@ -26,6 +26,7 @@ section{
 .bars {
     margin-left: 75px;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .sidebar_content{
