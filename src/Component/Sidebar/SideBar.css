@@ -28,8 +28,7 @@ section{
     font-size: 25px;
 }
 
-.sidebar_content,
-.logout {
+.sidebar_content{
     display: flex;
     flex-direction: column;
     align-items: center;
