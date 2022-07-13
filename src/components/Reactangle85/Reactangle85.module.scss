@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@100;400&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:wght@300;400&family=Teko:wght@500&display=swap');
+
+
+.reactangle{
+      
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+
+
+
+  button{
+    background: #00DB99;
+    border-radius: 26px;
+    border: #00DB99;
+    padding: 1rem 3rem;
+    color: #FFFFFF;
+    &:hover{
+        cursor: pointer;
+    }
+  }
+    
+  }
+
+
+
+

@@ -1,7 +1,22 @@
-const App = () => {
+import Reactangle86 from './components/Reactangle86/Reactangle86';
+import Style from "./App.module.scss"
+
+
+function App() {
   return (
-    <h1>React Dashboard</h1>
+    <div className={Style.dp}>
+
+     
+      <Reactangle86 />
+
+    </div>
+
+
   );
 }
 
 export default App;
+
+
+
+
