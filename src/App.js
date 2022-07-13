@@ -1,6 +1,11 @@
-const App = () => {
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
+
+function App() {
   return (
-    <h1>React Dashboard</h1>
+    <div className="App">
+      <Navbar />
+    </div>
   );
 }
 
