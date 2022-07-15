@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import search from "../../constants/search.svg"
 import profileImage from "../../constants/profileImage.png"
@@ -43,6 +44,4 @@ class Navbar extends Component {
         )
     }
 }
-
-
 export default Navbar
