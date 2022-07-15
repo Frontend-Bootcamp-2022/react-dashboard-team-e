@@ -1,6 +1,7 @@
 
-import Sidebar from "./component/SideBar/SideBar";
+import Sidebar from "./components/Sidebar/Sidebar";
 import "./App.css"
+import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   return (
     <div className="container">
