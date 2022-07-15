@@ -1,4 +1,4 @@
-import SideBarMenu from '../SideBarMenu.js/SideBarMenu';
+import SideBarMenu from '../SideBarMenu/SideBarMenu';
 import "./SideBar.css"
 import {
     AiOutlineHome,

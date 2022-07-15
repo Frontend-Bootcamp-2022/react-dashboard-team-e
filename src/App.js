@@ -1,4 +1,4 @@
-import Sidebar from "./Component/SideBar/SideBar";
+import Sidebar from "./component/SideBar/SideBar";
 import "./App.css"
 const App = () => {
   return (
