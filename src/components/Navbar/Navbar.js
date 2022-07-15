@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
-import search from "../../constants/search.svg"
-import profileImage from "../../constants/profileImage.png"
+import search from "../../Images/search.svg"
+import profileImage from "../../Images/profileImage.png"
 import {MenuItems} from "./MenuItems"
 import './Navbar.css'
 
