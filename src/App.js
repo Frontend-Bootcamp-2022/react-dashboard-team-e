@@ -1,7 +1,17 @@
+
+import Sidebar from "./components/Sidebar/Sidebar";
+import "./App.css"
+import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   return (
-    <h1>React Dashboard</h1>
-  );
+    <div className="container">
+      <nav>
+        <Sidebar />
+      </nav>
+      <main>
+        <Navbar />
+      </main>
+    </div>
+  )
 }
-
 export default App;
