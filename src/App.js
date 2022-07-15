@@ -1,3 +1,4 @@
+
 import Sidebar from "./component/SideBar/SideBar";
 import "./App.css"
 const App = () => {
@@ -7,11 +8,9 @@ const App = () => {
         <Sidebar />
       </nav>
       <main>
-
+        <Navbar />
       </main>
     </div>
-
-  );
+  )
 }
-
 export default App;
