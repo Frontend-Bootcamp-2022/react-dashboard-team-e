@@ -7,8 +7,7 @@ const App = () => {
         <Sidebar />
       </nav>
       <main>
-        <h1>deneme</h1>
-        <h1>deneme2</h1>
+
       </main>
     </div>
 
